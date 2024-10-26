@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     yandex = {
-      source = "yandex-cloud/yandex"
+      source  = "yandex-cloud/yandex"
       version = "0.129.0"
     }
   }
@@ -9,15 +9,16 @@ terraform {
 
 provider "yandex" {
   service_account_key_file = "../authorized_key.json"
-  cloud_id           = var.cloud_id
-  folder_id          = var.folder_id
-  zone               = var.zone
+  cloud_id                 = var.cloud_id
+  folder_id                = var.folder_id
+  zone                     = var.zone
 }
 
 resource "yandex_compute_instance" "hackathon" {
   name        = "hackathon-vm"
   platform_id = "standard-v2"
   zone        = var.zone
+  hostname    = "hackathon-vm"
 
   resources {
     cores         = 2
@@ -40,15 +41,17 @@ resource "yandex_compute_instance" "hackathon" {
 
   metadata = {
     "ssh-keys" = "ebob:${file("/Users/ebob/.ssh/id_rsa.pub")}"
+
+    user-data = "${file("meta.txt")}"
   }
 
 }
 
 resource "yandex_compute_disk" "hackathon" {
-  name   = "hackathon-disk"
-  zone   = var.zone
-  size   = 20
-  type   = "network-hdd"
+  name     = "hackathon-disk"
+  zone     = var.zone
+  size     = 20
+  type     = "network-hdd"
   image_id = var.image_id
 }
 

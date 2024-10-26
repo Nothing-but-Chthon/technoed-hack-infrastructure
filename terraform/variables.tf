@@ -16,7 +16,7 @@ variable "folder_id" {
 variable "zone" {
   description = "Yandex Cloud availability zone"
   type        = string
-  default = "ru-central1-b"
+  default     = "ru-central1-b"
 }
 
 variable "image_id" {
