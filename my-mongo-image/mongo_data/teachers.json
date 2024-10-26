@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Власов Андрей",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияЛидер компетенции JS, руководитель технологического Хаба Сбера в Казани с опытом в разработке 16 лет, преподаватель курса  «Cross-platform developer on JavaScript» и опциональных модулей \"Electron\" и \"React-native\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/7a1/9gjq4givhenk15wnslamyyzkqneyypuh/180_168_075511db9cefbc414a902a46f1b8fae16/foto.jpg"
+    },
+    {
+        "name": "Жуковская Татьяна",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияДоцент, к.т.н., стаж работы 20 лет, автор более 150 научных и методических трудов. Преподаватель курса \"Введение в цифровое проектирование одежды\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/7a0/ozwseb3jb43zo6v0zg5ay7b6ohcmipuw/180_168_075511db9cefbc414a902a46f1b8fae16/foto-dlya-sayta-1.JPG"
+    },
+    {
+        "name": "Закиев Василь",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияПредприниматель в сфере высоких технологий. Основатель и CEO компании shtrafy-gibdd.ru. Сооснователь компании «Спутник», резидента Сколково и Иннополиса, разработчика умных домофонов. Преподаватель курса \"Директор стартапа\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/759/bwiq79ehbf4emt9cyo8xfaooc18ohffy/180_168_075511db9cefbc414a902a46f1b8fae16/msg_4127925523_15660.jpg"
+    },
+    {
+        "name": "Кондратьев Артем",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияРазработчик на Java с опытом более четырех лет, преподаватель курса \"Программирование на Java\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/2da/nxiomcrwru1cyt9b93slrqdtidzxxgo0/180_168_075511db9cefbc414a902a46f1b8fae16/photo1716214463.jpeg"
+    },
+    {
+        "name": "Петрова Дарья",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияВеб-дизайнер со стажем работы 8 лет, преподаватель курса \"Веб-дизайн\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/46a/qkwsdt5xh6km4v829hjf3vdmuokw2ieg/180_168_075511db9cefbc414a902a46f1b8fae16/IMG_9261-_-kopiya-_2_.JPG"
+    },
+    {
+        "name": "Примаков Александр",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияSeniorFrontend разработчик технологического Хаба Сбера в Казани, опыт работы 10 лет,  преподаватель курса  «Cross-platform developer on JavaScript» и опциональных модулей \"Electron\" и \"React-native\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/a94/cshes3cjek1925dl2fmvmquhmj50tsaf/180_168_075511db9cefbc414a902a46f1b8fae16/foto.jpg"
+    },
+    {
+        "name": "Санамян Артак",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияМагистр по направлению «Прикладная математика и информатика». Дважды финалист чемпионата Северной Евразии ACM ICPC, призёр российских олимпиад, начиная от региональных, заканчивая чемпионатами северной Евразии разных лет. Преподаватель курса «Олимпиадное программирование».",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/1a2/prp3jnsyvtepgqq0a3qgl8nob6v6zsin/180_168_075511db9cefbc414a902a46f1b8fae16/Foto-Sanamyan-A.R..jpg"
+    },
+    {
+        "name": "Юнусов Линар",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияСтарший тестировщик с опытом работы более 4 лет, преподаватель курса \"Тестирование ПО\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/1ef/m93nf2zxsykxaho9hyfuqghc607ggp2n/180_168_075511db9cefbc414a902a46f1b8fae16/foto-dlya-sayta1.JPG"
+    },
+    {
+        "name": "Якупов Азат",
+        "position": "Преподаватель",
+        "achievements": "ДостиженияАрхитектор данных и ИИ, с опытом более 20 лет. Член Российского Общества \"Знание\". Руководитель научной лаборатории DataLab. Преподаватель курса \"Введение в Реляционные базы данных\"",
+        "image_url": "https://academy.itpark.tech/upload/resize_cache/iblock/0f4/92fvcgw4ji90ohnu0ix5y5pw8a5mb9hk/180_168_075511db9cefbc414a902a46f1b8fae16/foto-.jpg"
+    }
+]
