@@ -1,0 +1,47 @@
+- name: Install MongoDB on Yandex Cloud Server
+  hosts: yandex_server
+  become: true
+  tasks:
+    - name: Install necessary packages
+      apt:
+        name:
+          - gnupg
+          - curl
+        state: present
+
+    - name: Import the MongoDB public GPG key
+      shell: |
+        curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \
+        gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg --dearmor
+      args:
+        creates: /usr/share/keyrings/mongodb-server-8.0.gpg
+
+    - name: Create the MongoDB sources list file
+      copy:
+        dest: /etc/apt/sources.list.d/mongodb-org-8.0.list
+        content: "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/ubuntu noble/mongodb-org/8.0 multiverse\n"
+        mode: '0644'
+
+    - name: Reload the package database
+      apt:
+        update_cache: yes
+
+    - name: Install MongoDB Community Server
+      apt:
+        name: mongodb-org
+        state: present
+
+    - name: Start MongoDB service
+      service:
+        name: mongod
+        state: started
+        enabled: true
+
+    - name: Check MongoDB service status
+      command: systemctl status mongod
+      register: mongo_status
+      ignore_errors: yes
+
+    - name: Show MongoDB service status
+      debug:
+        var: mongo_status.stdout
