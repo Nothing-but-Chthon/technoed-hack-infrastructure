@@ -1,6 +1,8 @@
 [
     {
         "id": 1,
+	"closed": true;
+	"completed": 0;
         "name": "Курс \"Cross-platform developer on JavaScript\"",
         "start_date": "24 Сентября",
         "duration": "5 месяцев",
@@ -92,6 +94,8 @@
     },
     {
         "id": 2,
+	"closed": false;
+	"completed": 100;
         "name": "Курс \"Программирование на Java\"",
         "start_date": "25 Сентября",
         "duration": "50 акад./ч",
