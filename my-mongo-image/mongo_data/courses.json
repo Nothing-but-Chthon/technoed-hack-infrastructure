@@ -9,6 +9,7 @@
         "short_description": "Профессиональный курс по разработке на JavaScript в Казани.",
         "type": "adults",
         "link": "https://academy.itpark.tech/courses/cross-platform-developer-on-javascript/",
+	"entity": "course",    
         "reviews": [
 		{
 			"author": "Анна Смирнова",
@@ -99,6 +100,7 @@
         "short_description": "Курс по программированию на Java для начинающих.",
         "type": "adults",
         "link": "https://academy.itpark.tech/courses/programmirovanie-na-java/",
+	"entity": "event",
         "reviews": [
         {
             "author": "Екатерина Смирнова",
